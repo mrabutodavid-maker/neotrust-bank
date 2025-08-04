@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transfer - NeoTrust Bank</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="brand">Transfer Funds</h1>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="transfer.html">Transfer</a>
+      <a href="transactions.html">Transactions</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+  <main>
+    <form onsubmit="return sendTransfer()" class="form-box">
+      <input type="text" placeholder="Recipient Account Number" required />
+      <input type="number" placeholder="Amount (USD)" required />
+      <textarea placeholder="Note (optional)"></textarea>
+      <button type="submit">Send Money</button>
+    </form>
+  </main>
+  <footer>&copy; 2025 NeoTrust Bank</footer>
+  <script src="script.js"></script>
+</body>
+</html>

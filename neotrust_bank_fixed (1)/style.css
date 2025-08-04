@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #f0f0f0;
+}
+header {
+  background: #1f1f1f;
+  padding: 1rem;
+  text-align: center;
+}
+.brand {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.nav-links a {
+  margin: 0 10px;
+  color: #4fc3f7;
+  text-decoration: none;
+}
+main {
+  padding: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1f1f1f;
+  position: relative;
+}
+input, textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0.75rem;
+  background: #222;
+  border: 1px solid #444;
+  color: #fff;
+}
+button {
+  background: #007acc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  margin-top: 10px;
+}
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00000044;
+}
+.card {
+  background: #1e1e1e;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+th {
+  background-color: #007acc;
+  color: white;
+}
+@media (max-width: 600px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
